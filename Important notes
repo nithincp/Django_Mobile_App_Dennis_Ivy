@@ -1,0 +1,31 @@
+To activate a Virtual Env in Python
+Go to the folder where you have the folder venv and then execute the below command on terminal
+source venv/bin/activate
+-------------------------------------------
+To start a Django project
+django-admin startproject <project_name>
+The above command sets up the boiler plate code
+------------------------------------
+To install Django 
+pip install django
+-------------------------------------
+To start an app in Django
+python manage.py startapp <apps_name>
+------------------------------------
+We have to configure our app to the Django project
+For this go to the settings.py and add into the list INSTALLED_APPS the class present in the apps.py in the api(app project)
+------------------------------------
+To run the server 
+python manage.py runserver
+------------------------------------
+urls.py to do all the URL routing
+----------------------------------
+To create the executable for doing the entries to Database we need to execut the below
+python manage.py makemigrations
+the above command will create the migration script
+and then execute
+python manage.py migrate to create all the migration scripts
+----------------------------------
+user - nithinchandranp
+password - vipin@123!
+-------------------------------------
